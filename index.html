@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Información Básica</title>
+    <link rel="stylesheet" href="src/css/formulario.css">
+</head>
+<body>
+<nav class="navbar">
+    <a href="#home" class="nav-link">Inicio</a>
+    <a href="#about" class="nav-link">¿Qué es HTML?</a>
+    <a href="#features" class="nav-link">Características</a>
+    <a href="#contact" class="nav-link">Contacto</a>
+</nav>
+
+<div class="container">
+    <h1 class="t1" id="home">HTML</h1>
+
+    <section class="info-section" id="about">
+        <div class="left-content">
+            <img src="src/img/logo_html.png" alt="Logo HTML">
+        </div>
+        <div class="right-content">
+            <h3 class="t2">¿Qué es HTML?</h3>
+            <p class="parrafo1">HTML, o Lenguaje de Marcado de Hipertexto, es el estándar de facto para crear páginas web. Es la base sobre la cual se construye todo el contenido web. Con el tiempo, HTML ha evolucionado para permitir representaciones más complejas, adaptándose a las crecientes demandas de contenido en línea.</p>
+            <a href="https://www.w3schools.com/html/" target="_blank" class="learn-more">Aprende más sobre HTML</a>
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <h3 class="t3">¿Qué se puede hacer en HTML?</h3>
+        <div class="card-container">
+            <div class="card">
+                <strong>Crear estructura de página</strong>
+                <p>Define la estructura básica de una página, desde encabezados hasta pies de página.</p>
+            </div>
+            <div class="card">
+                <strong>Incorporar contenido multimedia</strong>
+                <p>Inserta imágenes, videos y audios directamente en tus páginas.</p>
+            </div>
+            <div class="card">
+                <strong>Establecer enlaces</strong>
+                <p>Crea enlaces para conectar diferentes páginas o sitios web.</p>
+            </div>
+            <div class="card">
+                <strong>Crear tablas</strong>
+                <p>Organiza datos y contenido en filas y columnas ordenadas.</p>
+            </div>
+            <div class="card">
+                <strong>Utilizar formularios</strong>
+                <p>Recolecta información de los usuarios a través de campos de texto, botones y más.</p>
+            </div>
+            <div class="card">
+                <strong>Aplicar estilo básico</strong>
+                <p>Aunque CSS es el principal responsable, HTML también permite ciertas personalizaciones estilísticas.</p>
+            </div>
+            <div class="card">
+                <strong>Agregar metadatos</strong>
+                <p>Información sobre la página que no se muestra, pero que es útil para navegadores y motores de búsqueda.</p>
+            </div>
+            <div class="card">
+                <strong>Crear estructura de navegación</strong>
+                <p>Define cómo los usuarios se desplazan por tu sitio a través de menús y barras de navegación.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-header">
+            <h3 class="t3">Contacto</h3>
+            <p>¿Tienes preguntas sobre HTML? Estamos aquí para ayudarte.</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h4>Formas de Contactarnos:</h4>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:example@email.com">example@email.com</a></li>
+                    <li><strong>Teléfono:</strong> +502 12345678</li>
+                    <li><strong>Redes Sociales:</strong> @LuisElpibe</li>
+                </ul>
+            </div>
+
+            <div class="contact-form">
+                <h4>Envía un mensaje directo:</h4>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Tu Mensaje" rows="4" required></textarea>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
+
